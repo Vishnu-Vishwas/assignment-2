@@ -8,11 +8,13 @@ class AppbarContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // custom icon widget
     return IconButton(
       onPressed: () {},
       style: ButtonStyle(
         shape: WidgetStateProperty.all(CircleBorder()),
-        side: WidgetStateProperty.all(BorderSide(color: Colors.grey.shade300)),
+        side: WidgetStateProperty.all(
+            BorderSide(color: CustomColors.appbarIconBorder)),
         elevation: WidgetStateProperty.all(60),
         backgroundColor: WidgetStateProperty.all(
           CustomColors.backgroundColor,

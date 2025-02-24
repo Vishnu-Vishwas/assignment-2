@@ -11,16 +11,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        // titleSpacing: 1,
-        leading: Builder(
-          builder: (BuildContext context) {
-            return AppbarContainer(
-              icon: Icons.arrow_back_ios_new_rounded,
-            );
-          },
+        leading: AppbarContainer(
+          icon: Icons.arrow_back_ios_new_rounded,
         ),
         leadingWidth: 90,
+        // title
         title: Text('My Donations'),
+        //actions
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 13.0),
