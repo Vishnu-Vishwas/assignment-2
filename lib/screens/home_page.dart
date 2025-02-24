@@ -16,7 +16,10 @@ class HomePage extends StatelessWidget {
         ),
         leadingWidth: 90,
         // title
-        title: Text('My Donations'),
+        title: Text(
+          'My Donations',
+          style: TextStyle(fontWeight: FontWeight.w600),
+        ),
         //actions
         actions: [
           Padding(
