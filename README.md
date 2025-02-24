@@ -1,16 +1,63 @@
-# assignment_2
+# **Donation App - Assignment 2**
 
-A new Flutter project.
+## 📌 Overview
+This Flutter project displays a list of donations, showcasing their details, progress, and remaining days. The UI consists of a **HomePage** with an **AppBar**, a **ListView of donation items**, and a structured layout for each donation.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📂 Project Structure
+```
+📦 assignment_2
+├── 📂 core
+│   ├── colors.dart           # Defines custom colors
+│   ├── text_styles.dart      # Manages text styles
+├── 📂 data
+│   ├── data.dart             # Sample donation data
+├── 📂 widgets
+│   ├── appbar_container.dart # Custom AppBar button widget
+│   ├── list_of_donations.dart# Widget displaying the donation list
+│   ├── list_item.dart        # Each donation item widget
+│   ├── donation_amount_widget.dart # Displays the donation amount
+│   ├── progress_bar_widget.dart    # Displays progress of the donation
+├── home_page.dart            # Main HomePage widget
+```
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠 Features
+✅ **Custom AppBar** with back and menu buttons  
+✅ **ListView** displaying donation items  
+✅ **Image, title, subtitle, progress bar, and remaining days** in each donation item  
+✅ **Custom styling** using `TextStyles` and `CustomColors`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/assignment_2.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd assignment_2
+   ```
+3. Get dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 📌 Tech Stack
+- **Flutter** (Dart)
+- **Material Design**
+- **ListView & ClipRRect**
+- **Custom Colors & Text Styles**
+
+---
+

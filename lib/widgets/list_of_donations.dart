@@ -14,7 +14,9 @@ class ListOfDonations extends StatelessWidget {
     return ListView.separated(
       itemCount: donationDataList.length,
       itemBuilder: (context, index) {
-        return ListItem(index: index);
+        return ListItem(
+          index: index,
+        );
       },
       separatorBuilder: (context, index) {
         return Padding(
